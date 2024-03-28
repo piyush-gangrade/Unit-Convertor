@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    background-color: #F4F4F4;
+}
+
+#input-section {
+    background: #6943FF;
+    height: 30vh;
+    padding: 20px 0px;
+    color: #FFFFFF;
+}
+
+#heading {
+    margin: 20px 0px;
+}
+
+/*To remove arrow from default input type number*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#input{
+    background-color: #6943FF;
+    color: #FFFFFF;
+    display: block;
+    margin: 20px auto;
+    height: 80px;
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+    font-size: 45px;
+    width: 100px;
+    padding: 0px 7px;
+    text-align: center;
+}
+/*Remove pop up border*/
+#input textarea:focus, #input:focus{
+    outline: none;
+}
+
+#btn {
+    padding: 8px 25px;
+    color: #3D3D3D;
+    border-radius: 5px;
+    border: none;
+}  
+#btn:hover{
+    cursor: pointer;
+}  
+
+.des-container{
+    margin: 30px auto;
+    background: #FFFFFF;
+    padding: 25px 20px;
+    width: 500px;
+    border-radius: 6px;
+    color: #353535;
+}
+.unit-heading{
+    margin: 0 0 10px 0;
+    color: #5A537B;
+}
+.unit-des{
+    margin: 0;
+}
