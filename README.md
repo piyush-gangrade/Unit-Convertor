@@ -17,8 +17,8 @@ A unit converter that allows users to convert measurements between different uni
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/unit-converter.git
-    cd unit-converter
+    git clone https://github.com/piyush-gangrade/Unit-Convertor.git
+    cd Unit-Convertor
     ```
 
 2. Open `index.html` in your web browser.
